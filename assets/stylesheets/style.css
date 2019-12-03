@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* ====================================
+      common
+==================================== */
+.container {
+    max-width: 1000px;
+    margin:auto;
+    /* border:1px solid black; */
+}
+/* ====================================
+      body
+==================================== */
+.font1{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ====================================
+      header
+==================================== */
+.header {
+    background: rgb(184, 62, 17);
+    font-size: 15px;
+    font-weight: 500;
+    color:white;
+    text-align:left;
+    padding: 15px 0;
+}
+nav ul li{
+    display: inline;
+
+}
+nav li a {
+    font-weight: 700; 
+    text-decoration: none;
+    padding-right: 20px;
+    color: white;
+}
+
+/* ====================================
+      main
+==================================== */
+.flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+.box {
+    /* box-sizing: border-box; */
+    width: 30%;
+    height: 400px;
+    background: #005979;
+    margin: 20px 0;
+    /* padding: 15px ; */
+    box-shadow: 7px 7px 10px  black;
+
+}
+/* li {
+    padding-top: 20px;
+} */
+ol.list1 {
+    display: block;
+    list-style-type: decimal;
+    list-style-position: inside;
+    font-size: 15px;
+    color: white;
+    /* padding-top: 20px; */
+    font-weight: 700;
+}
+main li {
+    padding: 8px 0;
+}
+main ol,main ul {
+    list-style-position: inside;
+    /* padding-top: 20px; */
+    padding-left:  40px;
+}
+/* list2 */
+ul.list2 {
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 15px;
+    color: white;
+    /* padding-left: 15px; */
+    font-weight: 700;
+}
+.square {
+    list-style-type: square;
+}
+/* list 3 */
+ul.list3 {
+    /* list-style-image: url("../media/black-white-silhouette-tick-button-260nw-566189563.webp"); */
+    color: white;
+    list-style-position: inside;
+    font-size: 15px;
+    font-weight: 700;
+}
+.black {
+    color: black;
+    padding-right: 10px;
+}
+
+
+/* dl dt dd */
+.heading {
+    font-weight: 500;
+    font-size: 40px;
+    margin: 15px 0;
+    font-family: 'Roboto Mono', monospace;
+}
+.discription {
+    font-size: 20px;
+    line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 35px;
+
+}
+
+/* footer */
+.footer {
+    background-color: #252C22;
+    padding:20px 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
