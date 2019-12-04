@@ -1,0 +1,308 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/* ====================================
+    common
+==================================== */ 
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.center {
+    text-align: center;
+}
+.heading2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #555555;
+    padding-bottom: 35px;
+}
+.box1 {
+    width: 25%;
+    margin-right: 30px;
+    background: white;
+    padding-bottom: 40px;
+}
+.heading3 {
+    font-size: 30px;
+    font-weight: 900;
+    padding: 15px 0;
+    color: #555555;
+}
+/* ====================================
+    header
+==================================== */
+.header {
+    background: #B4DEBE;
+    padding-bottom: 90px;
+}
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+}
+.elevation {
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 15px;
+    /* color: aliceblue; */
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    padding-right: 25px;
+    color: black;
+}
+li {
+    display: inline;
+}
+nav {
+    padding-top: 20px;
+
+}
+.heading1 {
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+
+}
+.headerdetils {
+    color: #E96C77;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.btn1 {
+    font-size: 15px;
+    font-weight: 700;
+    padding:10px 15px;
+    background:#E96C77;
+    border: 0;
+}
+
+/* ====================================
+    main
+==================================== */
+/* section1 */
+.section1 {
+    background: #F5F5F5;
+    padding: 90px 0;
+}
+.wrap {
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.para1 {
+    color: #555555;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+.color {
+    color:#E96C77;
+    font-size: 65px ;
+    margin: 25px 0;
+}
+.flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+
+/* section2 */
+.section2 {
+    padding: 100px 0;
+    background: #E96C77;;
+}
+.white-color {
+    color: white;
+}
+.bgtrans {
+    background: rgba(230, 223, 223,.3);
+}
+.gray {
+    color: rgb(97, 95, 95);
+    font-size: 65px ;
+    margin: 25px 0;
+}
+
+/* section3 */
+.section3 {
+    padding: 90px 0;
+}
+.btn2 {
+    font-size: 18px;
+    font-weight: 900;
+    padding:14px 23px;
+    color: #555555;
+    border: 2px solid #bdbcbc;
+    background: white;
+    margin-top: 30px;
+
+}
+
+/* contact */
+.contact {
+    background: #F5F5F5;
+    padding: 90px 0;
+}
+.wrap-contact {
+    display:flex;
+    background: white;
+
+}
+.box2 {
+    box-sizing: border-box;
+    width: 60%;
+    /* border: 1px solid rgb(3, 2, 2); */
+    padding: 40px 20px;
+}
+.full-line {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 20px;
+    height: 35px;
+    color: rgb(161, 161, 161);
+}
+.textarea {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 20px;
+    height: 200px;
+    color: rgb(161, 161, 161);
+}
+.add-on-btn {
+    font-size: 18px;
+    font-weight: 900;
+    padding:15px 24px;
+    /* color: #555555; */
+    /* border: 2px solid #bdbcbc; */
+    /* background: white; */
+    margin-top: 30px;
+    margin-right: 30px;
+    color:white;
+}
+
+.box3 {
+    box-sizing: border-box;
+    width: 40%;
+    /* border: 1px solid rgb(3, 2, 2); */
+    padding: 20px;
+}
+.location {
+    color: gray;
+    font-size: 25px;
+    margin-right: 15px;
+}
+.border-bottom {
+    border-bottom: 1px solid gray;
+    padding: 25px 0;
+}
+a {
+    text-decoration: none;
+    color: #555555;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 600;
+    /* padding: 10px 20px; */
+
+}
+.fb {
+    font-size: 25px;
+    margin-right: 15px;
+    color: rgb(6, 6, 128);
+}
+.insta {
+    font-size: 25px;
+    margin-right: 15px;
+    color: rgb(180, 38, 38);
+}
+.git {
+    font-size: 25px;
+    margin-right: 15px;
+    color: gray;
+    /* padding: 25px 0; */
+}
+.border-bottom1 {
+    border-bottom: 1px solid white;
+    padding: 25px 0;
+}
+
+/* ====================================
+    footer
+==================================== */
+.footer {
+    background: rgb(163, 158, 158);
+    color: rgb(82, 78, 78);
+    padding: 60px 0 100px 0;
+}
+.right-border {
+    padding: 0 20px;
+    border-right: 1px solid rgb(71, 68, 68);
+    color:rgb(71, 68, 68) ;
+    font-size: 20px;
+}
+.para2 {
+    font-size: 15px;
+    margin: 30px;
+
+}
+.right-border1 {
+    padding: 0 20px;
+    /* border-right: 1px solid rgb(71, 68, 68); */
+    color:rgb(71, 68, 68) ;
+    font-size: 20px;
+}
